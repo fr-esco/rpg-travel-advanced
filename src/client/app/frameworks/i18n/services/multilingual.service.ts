@@ -5,6 +5,7 @@ import {Injectable} from '@angular/core';
 import * as _ from 'lodash';
 import {Store, ActionReducer, Action} from '@ngrx/store';
 import {TranslateService} from 'ng2-translate/ng2-translate';
+import 'rxjs/add/operator/take';
 
 // app
 import {Analytics, AnalyticsService} from '../../analytics/index';
@@ -59,7 +60,6 @@ export class MultilingualService extends Analytics {
 
     // use browser/platform lang if available
     let userLang = win.navigator.language.split('-')[0];
-
 
     // subscribe to changes
     // store.select('i18n').subscribe((state: MultilingualStateI) => {
