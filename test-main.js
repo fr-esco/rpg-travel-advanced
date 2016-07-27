@@ -26,6 +26,7 @@ System.config({
 System.config({
   defaultJSExtensions: true,
   paths: {
+    'js-quantities': 'node_modules/js-quantities/src/quantities.js',
     'lodash': 'node_modules/lodash/index.js',
     'ng2-translate/*': 'node_modules/ng2-translate/*.js',
     'angulartics2': 'node_modules/angulartics2/index.js',
