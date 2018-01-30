@@ -10,6 +10,8 @@
 
 #### Considering [Angular 2](https://angular.io/) for a large project? Do you need potential i18n support? Enhanced testing support? Oh and building for multiple platforms too? Web, *native* Mobile (Android/iOS), and even Desktop (Mac, Windows and Linux)?  
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/fr-esco/rpg-travel-advanced.svg)](https://greenkeeper.io/)
+
 This is an **advanced** seed project for Angular 2 apps based on [Minko Gechev's](https://github.com/mgechev) [angular2-seed](https://github.com/mgechev/angular2-seed) that expands on all of its great features to include core support for:
 
 #### Integration with:
